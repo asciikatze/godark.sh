@@ -8,4 +8,11 @@ full disclosure i have no idea how this systemd stuff works. played with After= 
 | systemctl enable godark.service                                 |
 +-----------------------------------------------------------------+
 
+for extra style points you can close the lid and stow your thinkpad army under your bed.
++-------------------------------------+
+| edit file: /etc/systemd/logind.conf |
+| HandleLidSwitch=ignore              |
+| HandleLidSwitchExternalPower=ignore |
++-------------------------------------+
+
 tested on ubuntu server 24.04.4
